@@ -19,7 +19,7 @@ def newIdentity():
 	
 def main():
 	while True:
-	  connectTor()
+		connectTor()
 		print urllib2.urlopen('http://ip.42.pl/raw').read()
 		newIdentity()
 		# anything less you will get a repeated IP
