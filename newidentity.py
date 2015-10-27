@@ -1,4 +1,4 @@
-import httplib, urllib2
+import urllib2
 import socket
 import socks
 from stem import Signal 
